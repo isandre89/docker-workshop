@@ -2,8 +2,12 @@
 
 ```bash
 # Run in Docker
+
+# To build and run
+docker-compose up --build -d
+
+# To just run
 docker-compose up
-# use -d flag to run in background
 
 # Tear down
 docker-compose down
