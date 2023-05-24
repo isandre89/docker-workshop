@@ -13,6 +13,8 @@ services:
       - mysql-dev
     restart: always
     command: npm start
+    volumes:
+      - ".:/usr/src/app"
 
   mysql-dev:
     container_name: mysql-container
